@@ -2,6 +2,7 @@ package li.cil.bedrockores.common.block.entity;
 
 import li.cil.bedrockores.common.block.Blocks;
 import li.cil.bedrockores.common.config.Constants;
+import li.cil.bedrockores.common.block.entity.EnchantedMinerBlockEntity;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.entity.BlockEntity;
 import net.minecraft.world.level.block.entity.BlockEntityType;
@@ -17,6 +18,7 @@ public final class BlockEntities {
 
     public static final RegistryObject<BlockEntityType<BedrockOreBlockEntity>> BEDROCK_ORE = register(Blocks.BEDROCK_ORE, BedrockOreBlockEntity::new);
     public static final RegistryObject<BlockEntityType<BedrockOreMinerBlockEntity>> MINER = register(Blocks.BEDROCK_MINER, BedrockOreMinerBlockEntity::new);
+    public static final RegistryObject<BlockEntityType<EnchantedMinerBlockEntity>> ENCHANTED_MINER = register(Blocks.ENCHANTED_BEDROCK_MINER, EnchantedMinerBlockEntity::new);
 
     // --------------------------------------------------------------------- //
 

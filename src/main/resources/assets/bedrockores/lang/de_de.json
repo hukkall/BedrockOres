@@ -1,7 +1,9 @@
 {
   "block.bedrockores.bedrock_miner": "Grundgesteinbohrer",
+  "block.bedrockores.enchanted_bedrock_miner": "Verzauberter Bohrer",
   "gui.bedrockores.expected_yield": "Erwartete Ausbeute: %s",
   "gui.bedrockores.exhausted": "Erschöpft",
   "gui.bedrockores.infinite": "Unendlich",
-  "tooltip.bedrockores.bedrock_miner": "Gräbt Grundgesteinerze in einem Bereich von %sx%sx%s unter sich aus."
+  "tooltip.bedrockores.bedrock_miner": "Gräbt Grundgesteinerze in einem Bereich von %sx%sx%s unter sich aus.",
+  "tooltip.bedrockores.enchanted_bedrock_miner": "Kann mit Glück und Effizienz bis Stufe 10 verzaubert werden"
 }

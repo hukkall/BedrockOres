@@ -1,7 +1,9 @@
 {
   "block.bedrockores.bedrock_miner": "Bedrock Miner",
+  "block.bedrockores.enchanted_bedrock_miner": "Enchanted Miner",
   "gui.bedrockores.expected_yield": "Expected yield: %s",
   "gui.bedrockores.exhausted": "Exhausted",
   "gui.bedrockores.infinite": "Infinite",
-  "tooltip.bedrockores.bedrock_miner": "Mines the %sx%sx%s area below it for bedrock ores."
+  "tooltip.bedrockores.bedrock_miner": "Mines the %sx%sx%s area below it for bedrock ores.",
+  "tooltip.bedrockores.enchanted_bedrock_miner": "Functions like the miner but drops resources and supports Fortune and Efficiency enchantments."
 }

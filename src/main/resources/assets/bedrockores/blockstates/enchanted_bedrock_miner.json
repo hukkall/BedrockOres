@@ -1,0 +1,5 @@
+{
+  "variants": {
+    "": { "model": "bedrockores:block/bedrock_miner" }
+  }
+}
