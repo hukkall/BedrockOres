@@ -4,6 +4,7 @@ import li.cil.bedrockores.common.block.Blocks;
 import li.cil.bedrockores.common.config.Constants;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
+import li.cil.bedrockores.common.item.EnchantedMinerItem;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -15,6 +16,7 @@ public final class Items {
     // --------------------------------------------------------------------- //
 
     public static final RegistryObject<Item> BEDROCK_MINER = ITEMS.register(Blocks.BEDROCK_MINER.getId().getPath(), () -> new BlockItem(Blocks.BEDROCK_MINER.get(), new Item.Properties()));
+    public static final RegistryObject<Item> ENCHANTED_MINER = ITEMS.register(Blocks.ENCHANTED_BEDROCK_MINER.getId().getPath(), () -> new EnchantedMinerItem(Blocks.ENCHANTED_BEDROCK_MINER.get(), new Item.Properties()));
 
     // --------------------------------------------------------------------- //
 
