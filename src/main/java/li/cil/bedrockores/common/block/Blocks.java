@@ -14,6 +14,7 @@ public final class Blocks {
 
     public static final RegistryObject<BedrockOreBlock> BEDROCK_ORE = BLOCKS.register("bedrock_ore", BedrockOreBlock::new);
     public static final RegistryObject<BedrockMinerBlock> BEDROCK_MINER = BLOCKS.register("bedrock_miner", BedrockMinerBlock::new);
+    public static final RegistryObject<EnchantedMinerBlock> ENCHANTED_BEDROCK_MINER = BLOCKS.register("enchanted_bedrock_miner", EnchantedMinerBlock::new);
 
     // --------------------------------------------------------------------- //
 

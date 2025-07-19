@@ -4,6 +4,7 @@ on:
   pull_request:
   push:
     branches: [ '**' ]
+  workflow_dispatch:
 
 jobs:
   build:
@@ -33,3 +34,8 @@ jobs:
           restore-keys: ${{ runner.os }}-gradle-
       - name: Build with Gradle
         run: ./gradlew build
+      - name: Upload artifacts
+        uses: actions/upload-artifact@v3
+        with:
+          name: bedrockores-${{ matrix.os }}
+          path: build/libs/*.jar

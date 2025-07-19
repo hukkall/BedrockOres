@@ -15,6 +15,7 @@ public final class Items {
     // --------------------------------------------------------------------- //
 
     public static final RegistryObject<Item> BEDROCK_MINER = ITEMS.register(Blocks.BEDROCK_MINER.getId().getPath(), () -> new BlockItem(Blocks.BEDROCK_MINER.get(), new Item.Properties()));
+    public static final RegistryObject<Item> ENCHANTED_MINER = ITEMS.register(Blocks.ENCHANTED_BEDROCK_MINER.getId().getPath(), () -> new EnchantedMinerItem(Blocks.ENCHANTED_BEDROCK_MINER.get(), new Item.Properties()));
 
     // --------------------------------------------------------------------- //
 

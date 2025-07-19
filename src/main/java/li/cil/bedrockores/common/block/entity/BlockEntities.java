@@ -17,6 +17,7 @@ public final class BlockEntities {
 
     public static final RegistryObject<BlockEntityType<BedrockOreBlockEntity>> BEDROCK_ORE = register(Blocks.BEDROCK_ORE, BedrockOreBlockEntity::new);
     public static final RegistryObject<BlockEntityType<BedrockOreMinerBlockEntity>> MINER = register(Blocks.BEDROCK_MINER, BedrockOreMinerBlockEntity::new);
+    public static final RegistryObject<BlockEntityType<EnchantedMinerBlockEntity>> ENCHANTED_MINER = register(Blocks.ENCHANTED_BEDROCK_MINER, EnchantedMinerBlockEntity::new);
 
     // --------------------------------------------------------------------- //
 

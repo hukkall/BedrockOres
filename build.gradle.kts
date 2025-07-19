@@ -83,7 +83,7 @@ tasks {
         val properties = mapOf(
                 "version" to modVersion,
                 "minecraftVersion" to minecraftVersion,
-                "loaderVersion" to forgeVersion.split(".").first(),
+                "loaderVersion" to forgeVersion.substringBefore('.'),
                 "forgeVersion" to forgeVersion
         )
         inputs.properties(properties)

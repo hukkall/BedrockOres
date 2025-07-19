@@ -13,6 +13,7 @@ public final class ModCreativeModTabs {
     public static void handleCreativeTabEvent(final BuildCreativeModeTabContentsEvent event) {
         if (event.getTabKey() == CreativeModeTabs.FUNCTIONAL_BLOCKS) {
             event.accept(Items.BEDROCK_MINER.get());
+            event.accept(Items.ENCHANTED_MINER.get());
         }
     }
 }
